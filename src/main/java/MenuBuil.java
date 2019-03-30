@@ -1,7 +1,7 @@
 public class MenuBuil {
 
     public void mainManu(){
-        System.out.println("Menu :> ");
+        System.out.println("Menu :>  ");
         System.out.println(" 1 :> Show all catalog ");
         System.out.println(" 2 :> Show by grupe ");
         System.out.println(" 3 :> Show by grupe and Lowest then >>> ");
