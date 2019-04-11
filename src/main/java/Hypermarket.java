@@ -7,7 +7,7 @@ public class Hypermarket {
     public static void main(String[] args){
 
        MarketUtility market = new MarketUtility();
-       MenuBuil menu = new MenuBuil();
+       MenuBuil menu = new MenuBuil();  //create main menu
 
        boolean exit = false;
 
@@ -15,11 +15,13 @@ public class Hypermarket {
             int pos = 0;
             double price = 0.0;
 
-            menu.mainManu();
+            menu.mainManu();  //show text main menu
 
-            BufferedReader in = new BufferedReader(new InputStreamReader(System.in));   //get strig data
+            BufferedReader in = new BufferedReader(new InputStreamReader(System.in));   //get input data
+
+            //circle input menu
             try {
-                switch (pos = Integer.parseInt(in.readLine())) {
+                switch (Integer.parseInt(in.readLine())) {
                     case 1:
                         market.showAllItems();
                         break;

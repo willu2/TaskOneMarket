@@ -1,5 +1,8 @@
+
+//main menu print class
 public class MenuBuil {
 
+    //print main menu
     public void mainManu(){
         System.out.println("Menu :> ");
         System.out.println(" 1 :> Show all catalog ");
@@ -11,6 +14,7 @@ public class MenuBuil {
         System.out.println("Enter position :> ");
     }
 
+    //print menu of groupe types
     public void grupeShow(){
         System.out.println("Enter grupe:");
         System.out.println("> 1: Glue ");
@@ -19,6 +23,7 @@ public class MenuBuil {
         System.out.println("> 4: ConstructionChemistry ");
     }
 
+    //print price data
     public void priceEnter(){
         System.out.println("Enter limit price:");
     }
